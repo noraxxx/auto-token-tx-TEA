@@ -61,11 +61,11 @@ def send_token(to_address, amount):
 
 # Loop pengiriman token
 for i, address in enumerate(recipient_addresses):
-    # Acak jumlah token antara 1.00 hingga 5.00 GT
+    # Acak jumlah token antara 1.00 hingga 5.00 Token
     random_amount = round(random.uniform(1.0, 5.0), 2)
     amount_wei = int(random_amount * (10 ** 18))
 
-    print(f"[{i+1}/{len(recipient_addresses)}] Mengirim {random_amount} GT ke {addres>    send_token(address, amount_wei)
+    print(f"[{i+1}/{len(recipient_addresses)}] Mengirim {random_amount} Token ke {addres>    send_token(address, amount_wei)
 
     # Delay antara 60 sampai 120 detik
     delay = random.randint(60, 120)
