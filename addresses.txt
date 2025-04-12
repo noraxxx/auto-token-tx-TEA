@@ -1,0 +1,1 @@
+other wallet (max 100 address) 1/line
